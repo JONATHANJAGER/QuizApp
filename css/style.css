@@ -1,0 +1,198 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	color: #fff;
+	font-family: 'Impact', sans-serif;
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1.7rem;
+	line-height: 2rem;
+	background-color: black;
+	
+}
+
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Impact';
+	font-weight: 800;
+	font-size: 3.5rem;
+	line-height: 3.8rem;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+nav {
+	text-align: right;
+	margin-right: 1rem;
+	margin-top: 1rem;
+}
+nav li {
+	display: inline-block;
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	text-transform: uppercase;
+	border-bottom: 4px #fff solid;
+	
+}
+button {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1.7rem;
+	margin-top: 1rem;
+	text-transform: uppercase;
+	color: #ff001f;
+	border: 2px #fff solid;
+	padding: 0.9rem;
+	background-color: white;
+}
+.modalBox {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	bottom: 1rem;
+	left: 1rem;
+	padding: 0.5rem 2.5rem;
+	background-color: #ff001f;
+}
+.modalBox h1 {
+	font-size: 2rem;
+	text-shadow: none;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.modalBox button {
+	letter-spacing: 0.2rem;
+	background-color: rgba(0, 0, 0, 0);
+	border: 4px #fff solid;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 1.3rem;
+}
+.modalBox-content {
+	text-align: center;
+	margin-top: 2rem;
+}
+.modalBox-content hr, .modalBox-content p {
+	margin-bottom: 2rem;
+}
+.start-screen, .game-screen, .end-game-win, .end-game-lose {
+	margin: 0 auto;
+	width: 75%;
+}
+.start-screen {
+	/*display: none;*/
+	text-align: center;
+	margin-top: 12rem;
+}
+.game-screen {
+	/*display: none;*/
+	margin-top: 3rem;
+}
+.silhouette {
+	background-image: }
+
+img {
+	display: block;
+	margin-left: 2rem;
+	text-align: center;
+	width: 80%;
+}
+.multiple-choice {
+	margin-top: 1.3rem;
+	margin-bottom: 1rem;
+}
+input[type=radio] {
+	display: none;
+}
+input[type=radio] + label {
+	display: block;
+	width: 100%;
+	font-family: 'Exo 2', sans-serif;
+	line-height: 1.8rem;
+	text-align: center;
+	color: #17abf0;
+	background-color: #fff;
+	border: 2px #fff solid;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+}
+input[type=radio]:checked + label {
+	box-shadow: 7px 7px 0px #17abf0;
+}
+.feedback, .error {
+	text-align: center;
+	font-size: 1.5rem;
+	text-shadow: 2px 2px 0px #d14500;
+}
+.point-count {
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+.EXP-text {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 2rem;
+	display: inline-block;
+	
+}
+.point-meter {
+	display: inline-block;
+	margin-top: 0.2rem;
+	float: right;
+	height: 1.8rem;
+	width: 76%;
+	border: 3px #fff solid;
+	border-radius: 1.5rem;
+	overflow: hidden;
+}
+#point-bar {
+	/*position: absolute;
+	margin: 0.1rem;
+	height: 1.2rem;
+	border-radius: 1.5rem;*/
+	background-color: #17d9f0;
+	width: 0%;
+	height: 1.425rem;
+}
+.next-question, .submit-answer, .finish-quiz {
+	display: block;
+	text-align: right;
+	
+}
+.end-game-win {
+	display: none;
+	text-align: center;
+	margin-top: 12rem;
+	text-shadow: 2px 2px 0px #d14500;
+}
+.end-game-lose {
+	display: none;
+	text-align: center;
+	margin-top: 12rem;
+	text-shadow: 2px 2px 0px #d14500;
+}
+
+/* responsive stuff */
+@media screen and (min-width: 500px) {
+	.start-screen, .game-screen {
+		margin: 0 auto;
+		width: 400px;
+  }
+  .start-screen {
+  	margin-top: 14rem;
+  }
+  .start-screen h1, .end-game-win h1, .end-game-lose h1 {
+  	font-size: 4rem;
+  }
+	
+	.modalBox-content {
+		margin: 0 auto;
+		width: 400px;
+	}
+	.modalBox-content h1 {
+		font-size: 2.5rem;
+	}
+}
