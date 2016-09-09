@@ -11,76 +11,81 @@
 
 <body>
 	
-	<nav>
-		<ul>
-			<li><a class="new" href="#">New Game</a></li>
-			<li><a class="about" href="#aboutModal">About</a></li>
-		<ul>
-	</nav>
+		<nav>
+			<ul>
+				<li><a class="new" href="#">New Game</a></li>
+				<li><a class="about" href="#aboutModal">About</a></li>
+			<ul>
+		</nav>
+	<div class="background">
 
-	<div class="modalBox">
-		<div class="modalBox-content">
-			<h1>About this Game</h1>
-			<hr />
-			<p>Choose the best answer to the question below. After you have selected your answer click submit. Take your time and do your best!</p>
-			<p>You can reset the game by clicking on 'New Game'</p>
-			<a href="#close" class="close-box"><button>CLOSE</button></a>
-		</div>
-	</div>
+		<div class="modalBox">
+			<div class="modalBox-content">
+				<h1>About this Game</h1>
+				<hr />
+				<p>Choose the best answer to the question below. After you have selected your answer click submit. Take your time and do your best!</p>
+				<p>You can reset the game by clicking on 'New Game'</p>
+				
+				<a href="#close" class="close-box"><button>CLOSE</button></a> 
 
-	<section class="start-screen">
-		<h1>Test your Mind!</h1>
-		<button class="start-game"> > Start < </button>
-	</section>
-
-	<section class="game-screen">
-	
-		<div class="question-container">
-			<h1 class="question-number"></h1>
-			<div class="silhouette">
-				<img class="mystery-image">
-			</div>
-			<div class="feedback"></div>
-			<div class="error"></div>
-			<div class="multiple-choice">
-				<ul>
-					<li><input type="radio" id="choice1" name="choice" value="false"><label id="label1" for="choice1"></label></li>
-					<li><input type="radio" id="choice2" name="choice" value="false"><label id="label2" for="choice2"></label></li>
-					<li><input type="radio" id="choice3" name="choice" value="false"><label id="label3" for="choice3"></label></li>
-				</ul>
 			</div>
 		</div>
+
+		<section class="start-screen">
+			<h1>Test your Mind!</h1>
+			
+			 <button class="start-game"> > Start < </button> 
+		</section>
+
+		<section class="game-screen">
 		
-		<!-- This shows up if you get all questions right -->
-		<section class="end-game-win">
-			<h1>PERFECT!</h1>
-			<p class="score"></p>
-			<p>You're ready to catch them all!</p>
-			<button class="new">> REPLAY</button>
-		</section>
-
-		<!-- This shows up if you don't get all 5 right -->
-		<section class="end-game-lose">
-			<h1>TRY AGAIN!</h1>
-			<p class="score"></p>
-			<p>Give it another go!</p>
-			<button class="new">> REPLAY</button>
-		</section>
-
-		<!-- Keep track of points here-->
-		<div class="point-count">
-			<div class="EXP-text">EXP</div>
-			<div class="point-meter">
-				<div id="point-bar"></div>
+			<div class="question-container">
+				<h1 class="question-number"></h1>
+				<div class="right-answer">
+					<img class="mystery-image">
+				</div>
+				<div class="feedback"></div>
+				<div class="error"></div>
+				<div class="multiple-choice">
+					<ul>
+						<li><input type="radio" id="choice1" name="choice" value="false"><label id="label1" for="choice1"></label></li>
+						<li><input type="radio" id="choice2" name="choice" value="false"><label id="label2" for="choice2"></label></li>
+						<li><input type="radio" id="choice3" name="choice" value="false"><label id="label3" for="choice3"></label></li>
+					</ul>
+				</div>
 			</div>
-		</div>
+			
+			<!-- This shows up if you get all questions right -->
+			<section class="end-game-win">
+				<h1>PERFECT!</h1>
+				<p class="score"></p>
+				<p>Live and learn to live better!</p>
+				<button class="new">> REPLAY</button>
+			</section>
 
-			<a class="submit-answer" href="#"> > GUESS</a>
-			<a class="next-question" href="#"> > NEXT</a> 
+			<!-- This shows up if you don't get all 5 right -->
+			<section class="end-game-lose">
+				<h1>TRY AGAIN!</h1>
+				<p class="score"></p>
+				<p>Give it another go!</p>
+				<button class="new">> REPLAY</button>
+			</section>
 
-	</section>
+			<!-- Keep track of points here-->
+			<div class="point-count">
+				<div class="EXP-text">POINTS</div>
+				<div class="point-meter">
+					<div id="point-bar"></div>
+				</div>
+			</div>
 
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/script.js"></script>
+				<a class="submit-answer" href="#"> > SUBMIT ANSWER</a>
+				<a class="next-question" href="#"> > NEXT</a> 
+
+		</section>
+
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+	</div>
 </body>
 </html>

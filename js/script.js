@@ -5,52 +5,52 @@ $(window).load(function(){
 // OBJECTS //
 var questions = [
 		{ qnnumber: 1,
-		  qntitle: "",
-		  image: "",
-		  choices: [""],
-		  correct: "",
-		  answerimg: "",
-		  answertxt: ""
+		  qntitle: "What was Eypgt's name before Greek conquered it?",
+		  
+		  choices: ["First Egypt", "Othnu", "Kemet"],
+		  correct: "Kemet",
+		  
+		  answertxt: ["CORRECT!!! Kemet is one of the oldest kingdoms known to man and is the source of knowledge for every other nation after!" ]
 
 		}, { 
 
 			qnnumber: 2,
-		  qntitle: "Question 2",
-			image: "img/Q2_Pokemon.png",
-			choices: ["Gengar", "Clefairy", "Sableye"],
-			correct: "Gengar",
-			answerimg: "img/Q2_Pokemon_Answer.png",
-			answertxt: "It's Gengar!"
+		  qntitle: "Who taught the doctrine to slaves that God want them to suffer because their reward is in heaven?",
+			
+			choices: ["Thomas W. Higginson", "Charles C. Jones", "George Washington"],
+			correct: "Thomas W. Higginson",
+			
+			answertxt: "CORRECT!!! Thomas wrote the book 'Does Slavery Christianize the Negro?' and proceed to instruct slave-owners to teach slaves not to fight back.!"
 
 		}, { 
 
 			qnnumber: 3,
-		  qntitle: "Question 3",
-			image: "img/Q3_Pokemon.png",
-			choices: ["Arcanine", "Luxray", "Raikou"],
-			correct: "Luxray",
-			answerimg: "img/Q3_Pokemon_Answer.png",
-			answertxt: "It's Luxray!"
+		  qntitle: "What is the scienctific term for the word Aura?",
+			
+			choices: ["Human Radius", "Microbial Cloud", "Elexstrem"],
+			correct: "Microbial Cloud",
+			
+			answertxt: "CORRECT!!! The Microbial Cloud is a very unique braterial force field that surrounds every person and is to every person like a finger print!"
 
 		},{ 
 
 			qnnumber: 4,
-		  qntitle: "Question 4",
-			image: "img/Q4_Pokemon.png",
-			choices: ["Honedge", "Aegislash", "Doublade"],
-			correct: "Doublade",
-			answerimg: "img/Q4_Pokemon_Answer.png",
-			answertxt: "It's Doublade!"
+		  qntitle: "What are one of the reasons birds sing before sunrise?",
+			
+			choices: ["It's beautiful", "Make worms come up", "Open plants spiracles"],
+			correct: "Open plants spiracles",
+			
+			answertxt: "CORRECT!!! The frequency of the birds tone causes the spiracles on the leaves of a plant to open so it can feed!"
 
 		},{ 
 
 			qnnumber: 5,
-		  qntitle: "Question 5",
-			image: "img/Q5_Pokemon.png",
-			choices: ["Jigglypuff", "Aromatisse", "Swirlix"],
-			correct: "Swirlix",
-			answerimg: "img/Q5_Pokemon_Answer.png",
-			answertxt: "It's Swirlix!"
+		  qntitle: "What group of people accurately mapped the universe from our sun to Sirius Star 50,000 years ago?",
+			
+			choices: ["Greeks", "Dogon Tribe", "Three Wise Men"],
+			correct: "Dogon Tribe",
+			
+			answertxt: "CORRECT!!! The Dogon Tribe wrote and describe the weight, size, color and distance of every planet in our solor system all the way to Sirius B. Sirius B is 8.611 light years away which is 50.62 trillion miles from earth!!! "
 		}
 	];
 
