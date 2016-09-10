@@ -130,15 +130,18 @@ var newQuestion = function() {
 $('.submit-answer').click(function() {
 	if($('input[name=choice]').is(':checked')) {
 		userAnswer = $('input[type=radio]:checked + label').text();
+		// if user is right
 		if(userAnswer == questions[currentQuestion].correct) {
 			currentScore++;
 			$('#point-bar').animate({width: "+=20%"});	
+			$('.feedback').show().text(questions[currentQuestion].answertxt);
 		}
+		// if user is wrong
 		else {
 			currentScore+=0;
+			$('.feedback').show().text ("Try Again Later!");
 		}	
 		$('.mystery-image').attr('src', questions[currentQuestion].answerimg);
-		$('.feedback').show().text(questions[currentQuestion].answertxt);
 		$('.submit-answer').hide();
 		$('.next-question').show();
 	}
