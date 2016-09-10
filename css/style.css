@@ -51,12 +51,13 @@ a {
 h1 {
 	font-family: 'Impact';
 	font-weight: 800;
-	font-size: 2.0rem;
+	font-size: 2.2rem;
 	line-height: 2.8rem;
 	text-align: center;
 	margin-bottom: 1.5rem;
 	-webkit-text-stroke: 1.5px #232424;
 }
+
 nav {
 	text-align: right;
 	margin-right: 1rem;
@@ -128,12 +129,7 @@ button {
 .right-answer {
 	background-image: }
 
-img {
-	display: block;
-	margin-left: 2rem;
-	text-align: center;
-	width: 80%;
-}
+
 .multiple-choice {
 	margin-top: 1.3rem;
 	margin-bottom: 1rem;
@@ -143,18 +139,20 @@ input[type=radio] {
 }
 
 input[type=radio] + label {
-	border: 0 solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-  outline: 1px solid;
-  outline-color: rgba(255, 255, 255, .5);
-  outline-offset: 0px;
-  text-shadow: none;
-  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-  -webkit-transition-duration: 0.3s; /* Safari */
-    transition-duration: 0.4s;
-    background-color: #ff0000;
+	display: block;
+	width: 100%;
+	font-family: 'Impact';
+	line-height: 1.8rem;
+	text-align: center;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: 2px solid;
+	background-color: #ff0000;
 }
 
+ input[type=radio]:checked + label  {	
+  outline: 5px green solid;
+} 
 
 .feedback, .error {
 	text-align: center;
@@ -217,8 +215,9 @@ input[type=radio] + label {
   .start-screen {
   	margin-top: 14rem;
   }
+  
   .start-screen h1, .end-game-win h1, .end-game-lose h1 {
-  	font-size: 4rem;
+  	font-size: 3.4rem;
   }
 	
 	.modalBox-content {

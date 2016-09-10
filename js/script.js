@@ -15,10 +15,10 @@ var questions = [
 		}, { 
 
 			qnnumber: 2,
-		  qntitle: "Who taught the doctrine to slaves that God want them to suffer because their reward is in heaven?",
+		  qntitle: "Who made this quote, 'Powerful people never teach powerless people how to take power away from them?",
 			
-			choices: ["Thomas W. Higginson", "Charles C. Jones", "George Washington"],
-			correct: "Thomas W. Higginson",
+			choices: ["Thomas W. Higginson", "Dr. John H. Clocker", "George Washington"],
+			correct: "Dr. John H. Clocker",
 			
 			answertxt: "CORRECT!!! Thomas wrote the book 'Does Slavery Christianize the Negro?' and proceed to instruct slave-owners to teach slaves not to fight back.!"
 
