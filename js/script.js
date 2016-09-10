@@ -15,12 +15,11 @@ var questions = [
 		}, { 
 
 			qnnumber: 2,
-		  qntitle: "Who made this quote, 'Powerful people never teach powerless people how to take power away from them?",
+		  qntitle: "Who made this quote, 'Powerful people cannot afford to educate the people that they oppress, because once you are truly educated, you will not ask for power. You will take it!",
+			choices: ["Thomas W. Higginson", "Dr. John Henrik Clarke", "George Washington"],
+			correct: "Dr. John Henrik Clarke",
 			
-			choices: ["Thomas W. Higginson", "Dr. John H. Clocker", "George Washington"],
-			correct: "Dr. John H. Clocker",
-			
-			answertxt: "CORRECT!!! Thomas wrote the book 'Does Slavery Christianize the Negro?' and proceed to instruct slave-owners to teach slaves not to fight back.!"
+			answertxt: "CORRECT!!! Dr. John Henrik Clarke made this powerful quote with others during his life time between January 1, 1915 - July 16, 1998.!"
 
 		}, { 
 
